@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Temperatura e Umidade</title>
+</head>
+<body>
+    <h1>Dados do Receptor RF24</h1>
+    <p><strong>Temperatura:</strong> <span id="temp">--</span> °C</p>
+    <p><strong>Umidade:</strong> <span id="hum">--</span> %</p>
+    <p id="status">Aguardando dados...</p>
+
+    <script>
+        const ws = new WebSocket('ws://localhost:8080');
+        const statusElement = document.getElementById('status');
+
+        ws.onmessage = (event) => {
+            const data = event.data.trim().split(',');
+            if (data.length === 2) {
+                document.getElementById('temp').innerText = data[0];
+                document.getElementById('hum').innerText = data[1];
+                statusElement.innerText = ''; // Limpa a mensagem de aguardando dados
+            }
+        };
+
+        ws.onerror = (error) => {
+            console.error("Erro na conexão WebSocket:", error);
+            statusElement.innerText = 'Erro na conexão com o receptor.';
+        };
+    </script>
+</body>
+</html>

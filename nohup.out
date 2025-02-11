@@ -1,0 +1,192 @@
+node:internal/modules/cjs/loader:1242
+  throw err;
+  ^
+
+Error: Cannot find module '/home/femedici/Documentos/Codes-utf/interface-opt/server.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1239:15)
+    at Function._load (node:internal/modules/cjs/loader:1064:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.3.0
+node:internal/modules/cjs/loader:1242
+  throw err;
+  ^
+
+Error: Cannot find module '/home/femedici/Documentos/Codes-utf/interface-opt/server.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1239:15)
+    at Function._load (node:internal/modules/cjs/loader:1064:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.3.0
+node:internal/modules/cjs/loader:1242
+  throw err;
+  ^
+
+Error: Cannot find module '/home/femedici/Documentos/Codes-utf/interface-opt/server.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1239:15)
+    at Function._load (node:internal/modules/cjs/loader:1064:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.3.0
+Servidor rodando na porta 3000
+Porta serial aberta
+Dados recebidos: Receptor pronto!
+Servidor rodando na porta 3000
+Porta serial aberta
+Dados recebidos: Receptor pronto!
+Servidor rodando na porta 3000
+Porta serial aberta
+Dados recebidos: Receptor pronto!
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at new WebSocketServer (/home/femedici/Documentos/Codes-utf/interface-opt/back/node_modules/ws/lib/websocket-server.js:102:20)
+    at Object.<anonymous> (/home/femedici/Documentos/Codes-utf/interface-opt/back/server.js:14:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1698:10)
+    at Module.load (node:internal/modules/cjs/loader:1303:32)
+    at Function._load (node:internal/modules/cjs/loader:1117:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1948:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v23.3.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at new WebSocketServer (/home/femedici/Documentos/Codes-utf/interface-opt/back/node_modules/ws/lib/websocket-server.js:102:20)
+    at Object.<anonymous> (/home/femedici/Documentos/Codes-utf/interface-opt/back/server.js:14:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1698:10)
+    at Module.load (node:internal/modules/cjs/loader:1303:32)
+    at Function._load (node:internal/modules/cjs/loader:1117:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1948:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v23.3.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at new WebSocketServer (/home/femedici/Documentos/Codes-utf/interface-opt/back/node_modules/ws/lib/websocket-server.js:102:20)
+    at Object.<anonymous> (/home/femedici/Documentos/Codes-utf/interface-opt/back/server.js:14:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1698:10)
+    at Module.load (node:internal/modules/cjs/loader:1303:32)
+    at Function._load (node:internal/modules/cjs/loader:1117:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1948:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v23.3.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at new WebSocketServer (/home/femedici/Documentos/Codes-utf/interface-opt/back/node_modules/ws/lib/websocket-server.js:102:20)
+    at Object.<anonymous> (/home/femedici/Documentos/Codes-utf/interface-opt/back/server.js:14:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1698:10)
+    at Module.load (node:internal/modules/cjs/loader:1303:32)
+    at Function._load (node:internal/modules/cjs/loader:1117:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1948:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v23.3.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at new WebSocketServer (/home/femedici/Documentos/Codes-utf/interface-opt/back/node_modules/ws/lib/websocket-server.js:102:20)
+    at Object.<anonymous> (/home/femedici/Documentos/Codes-utf/interface-opt/back/server.js:14:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1698:10)
+    at Module.load (node:internal/modules/cjs/loader:1303:32)
+    at Function._load (node:internal/modules/cjs/loader:1117:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Emitted 'error' event on WebSocketServer instance at:
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1948:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+
+Node.js v23.3.0
